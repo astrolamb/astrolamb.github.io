@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Hiya, I'm 
 permalink: /
 subtitle: 
 
