@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Hiya, I'm 
+title: about 
 permalink: /
 subtitle: Astrophysicist | NANOGrav Research Assitant | PhD Candidate, Vanderbilt University 
 
