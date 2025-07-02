@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml",
+        "https://raw.githubusercontent.com/hexagonkt/codecv/master/cv.schema.json": "file:///Users/lambwg/Documents/astrolamb.github.io/_data/cv.yml"
+    }
+}
