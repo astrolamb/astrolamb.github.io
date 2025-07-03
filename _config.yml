@@ -122,13 +122,43 @@ giscus:
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-#external_sources:
+external_sources:
 #  - name: astrobites.org
 #    rss_url: https://astrobites.org/author/wlamb/feed
-  # - name: Google Blog
-  #  posts:
-  #    - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-  #      published_date: 2024-05-14
+   - name: Astrobites
+     posts:
+      - url: https://astrobites.org/2024/11/20/zig-zagging-across-the-universe/
+        published_date: 2024-11-20
+      - url: https://astrobites.org/2024/10/07/celtic-constellations/
+        published_date: 2024-10-07
+      - url: https://astrobites.org/2024/09/25/looking-for-supermassive-black-holes/
+        published_date: 2024-09-25
+      - url: https://astrobites.org/2024/08/08/dont-be-so-cold-self-interacting-dark-matter-as-a-solution-to-the-final-parsec-problem/
+        published_date: 2024-08-08
+      - url: https://astrobites.org/2024/06/11/meet-the-aas-keynote-speakers-prof-john-peacock/
+        published_date: 2024-06-11
+      - url: https://astrobites.org/2024/06/03/book-review-all-through-the-night-why-our-lives-depend-on-dark-skies/
+        published_date: 2024-06-03
+      - url: https://astrobites.org/2024/04/03/its-not-just-academic-challenges-faced-by-international-students-during-the-covid-19-pandemic/
+        published_date: 2024-04-03
+      - url: https://astrobites.org/2024/02/26/how-to-find-supermassive-black-hole-binaries-in-pulsar-timing-array-data-without-the-pulsars/
+        published_date: 2024-02-26
+      - url: https://astrobites.org/2023/10/17/garbage-priors-in-garbage-posteriors-out-the-importance-of-astrophysics-in-tests-of-general-relativity/
+        published_date: 2023-10-17
+      - url: https://astrobites.org/2023/10/12/continued-analysis-on-the-continuous-search-for-continuous-waves-continued/
+        published_date: 2023-10-12
+      - url: https://astrobites.org/2023/10/04/holy-cow-is-our-journey-through-the-universe-the-reason-for-the-hubble-tension/
+        published_date: 2023-10-04
+      - url: https://astrobites.org/2023/09/19/can-we-identify-the-host-galaxies-of-lisa-sources/
+        published_date: 2023-09-19
+      - url: https://astrobites.org/2023/07/01/betelgeuse-betelgeuse-betelgeuse-is-it-supernovatime/
+        published_date: 2023-01-07
+      - url: https://astrobites.org/2023/04/21/brave-new-world-immigrating-for-a-phd/
+        published_date: 2023-04-21
+      - url: https://astrobites.org/2023/03/13/will-it-merge-investigating-how-gas-disks-can-determine-the-future-of-a-binary-black-hole-system/
+        published_date: 2023-03-13
+      - url: https://astrobites.org/2023/02/15/counting-supermassive-black-hole-binaries-with-customers-at-a-coffee-shop/
+        published_date: 2023-02-15
 
 # -----------------------------------------------------------------------------
 # Newsletter
