@@ -10,6 +10,7 @@
 locale                   : "en-GB"
 site_theme               : "default"
 title                    : "William G. Lamb"
+subtitle                 : "Astrophysicist | PhD Candidate | NANOGrav Research Assitant"
 title_separator          : "-"
 name                     : &name "William G. Lamb"
 description              : &description "Astrophysicist"
