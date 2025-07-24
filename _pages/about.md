@@ -1,5 +1,6 @@
 ---
 layout: splash
+permalink: /
 title: "Hiya 👋, I'm William"
 author_profile: true
 redirect_from: 
@@ -11,7 +12,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/VeryLargeArray.jpg
   caption: "Photo credit: [**NRAO / AUI / NSF**](https://nanograv.org/press/image-gallery)"
-excerpt: "<h2 id=\"header\">I'm a Welsh Astrophysicist><span class=\"wrap\"></span></span>.</h2>"
+excerpt: "<h2 id=\"header\">I'm a Welsh Astrophysicist</h2>"
 feature_row:
   - image_path: /assets/images/MMA_shmahalo.jpg
     alt: "By combining information from the gravitational universe with knowledge learned through traditional astronomy, we can make new discoveries about how the universe works"
@@ -50,6 +51,8 @@ feature_row:
 My research interests include supermassive black hole binaries, cosmology, spectral characterisation, and Bayesian statistics.
 
 I'm also committed to science communication and advocating for my community. I'm a former writer and current website chair for [Astrobites](https://www.astrobites.org), and I've recently started contributing to pulsar science articles on [Wikipedia](https://www.wikipedia.org). Outside of science, I'm a triathlete-in-training, swing dancer, reader, and music lover.
+
+I'm originally from Wales, UK, and my first language is *Cymraeg*.
 
 <!-- To ensure the figure doesn't float to the left of the next part -->
 <div style="clear: both;"></div>
