@@ -36,15 +36,12 @@ feature_row:
 
 # About Me
 <hr>
-
 <figure style="width: 300px; height: auto;" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/bio_photo.jpg" alt="">
-  <figcaption>Bio photo of William G. Lamb</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/bio_photo.jpg" alt="Bio photo of William G. Lamb">
 </figure> 
-
 *Croeso!* I'm an Astrophysics PhD Candidate at [Vanderbilt University](https://www.vanderbilt.edu/) in Nashville, Tennessee (USA), where I study the nanohertz-frequency gravitational wave background. I'm also a Research Assistant for the [*North American Nanohertz Observatory for Gravitational waves*](https://nanograv.org) (NANOGrav) and [*International Pulsar Timing Array*](https://ipta4gw.org) (IPTA), where I run our detection and characterisation pipelines and I develop new methods to analyse our data.
 
-My research interests include supermassive black hole binaries, cosmology, spectral characterisation, and Bayesian statistics.
+My research interests include supermassive black hole binaries, cosmology, spectral characterisation, and Bayesian statistics. I developed `ceffyl` - one of the engines behind [`PTArcade`](https://andrea-mitridate.github.io/PTArcade/) for new physics searches in PTA data.
 
 I'm also committed to science communication and advocating for my community. I'm a former writer and current website chair for [Astrobites](https://www.astrobites.org), and I've recently started contributing to articles on [Wikipedia](https://www.wikipedia.org). Outside of science, I'm a triathlete-in-training, swing dancer, reader, and music lover.
 
@@ -52,11 +49,6 @@ I'm originally from Wales, UK, and my first language is *Cymraeg*.
 
 <!-- To ensure the figure doesn't float to the left of the next part -->
 <div style="clear: both;"></div>
-
-# My Links
-<hr>
-
-{% include social-links.html %}
 
 # Featured Projects
 <hr>
