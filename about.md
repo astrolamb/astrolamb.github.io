@@ -6,11 +6,11 @@ author_profile: true
 header:
   #overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /images/VeryLargeArray.jpg
+  overlay_image: VeryLargeArray.jpg
   caption: "Photo credit: [**NRAO / AUI / NSF**](https://nanograv.org/press/image-gallery)"
 excerpt: "<h2 id=\"header\">I'm a Welsh Astrophysicist</h2>"
 feature_row:
-  - image_path: /images/MMA_shmahalo.jpg
+  - image_path: MMA_shmahalo.jpg
     alt: "By combining information from the gravitational universe with knowledge learned through traditional astronomy, we can make new discoveries about how the universe works"
     title: "Multimessenger Astrophysics"
     caption: "Photo credit: [**Olena Shmahalo/NANOGrav**](https://www.olenashmahalo.com/project/nanograv)"
@@ -18,14 +18,14 @@ feature_row:
     url: ""
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /images/nanograv_pfc.jpg
+  - image_path: nanograv_pfc.jpg
     alt: "NANOGrav Physics Frontier Center logo"
     title: "Pulsar Timing Arrays"
     excerpt: "Learn about the experiments that I'm working on - the *North American Nanohertz Observatory for Gravitational Waves* (NANOGrav) and the *International Pulsar Timing Array* (IPTA)"
     url: ""
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /images/bio-photo.jpg
+  - image_path: bio-photo.jpg
     alt: ""
     title: "Science Communication and Advocacy"
     excerpt: "Read about my work in communicating science to the public and in advocating for science and the scientific community"
@@ -38,7 +38,7 @@ feature_row:
 <hr>
 
 <figure style="width: 300px; height: auto;" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/bio_photo.jpg" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/bio_photo.jpg" alt="">
   <figcaption>Bio photo of William G. Lamb</figcaption>
 </figure> 
 
