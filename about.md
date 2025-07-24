@@ -35,8 +35,10 @@ feature_row:
 ---
 
 # About Me
+<hr>
 <figure style="width: 300px; height: auto;" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/bio_photo.jpg" alt="Bio photo of William G. Lamb">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/bio_photo.jpg"
+       alt="Bio photo of William G. Lamb">
 </figure> 
 *Croeso!* I'm an Astrophysics PhD Candidate at [Vanderbilt University](https://www.vanderbilt.edu/) in Nashville, Tennessee (USA), where I study the nanohertz-frequency gravitational wave background. I'm also a Research Assistant for the [*North American Nanohertz Observatory for Gravitational waves*](https://nanograv.org) (NANOGrav) and [*International Pulsar Timing Array*](https://ipta4gw.org) (IPTA), where I run our detection and characterisation pipelines and I develop new methods to analyse our data.
 
