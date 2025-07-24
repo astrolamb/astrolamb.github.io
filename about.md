@@ -42,11 +42,11 @@ feature_row:
   <figcaption>Bio photo of William G. Lamb</figcaption>
 </figure> 
 
-*Croeso!* I'm an Astrophysics PhD Candidate at [Vanderbilt University](https://www.vanderbilt.edu/) in Nashville, Tennessee (USA), where I study the nanohertz-frequency gravitational wave background. I'm also a Research Assistant for the [*North American Nanohertz Observatory for Gravitational waves*](https://nanograv.org) (NANOGrav) and the [*International Pulsar Timing Array*](https://ipta4gw.org) (IPTA) Pulsar Timing Arrays, where I run their detection and characterisation pipelines and develop new methods to analyse our data.
+*Croeso!* I'm an Astrophysics PhD Candidate at [Vanderbilt University](https://www.vanderbilt.edu/) in Nashville, Tennessee (USA), where I study the nanohertz-frequency gravitational wave background. I'm also a Research Assistant for the [*North American Nanohertz Observatory for Gravitational waves*](https://nanograv.org) (NANOGrav) and [*International Pulsar Timing Array*](https://ipta4gw.org) (IPTA), where I run our detection and characterisation pipelines and I develop new methods to analyse our data.
 
 My research interests include supermassive black hole binaries, cosmology, spectral characterisation, and Bayesian statistics.
 
-I'm also committed to science communication and advocating for my community. I'm a former writer and current website chair for [Astrobites](https://www.astrobites.org), and I've recently started contributing to pulsar science articles on [Wikipedia](https://www.wikipedia.org). Outside of science, I'm a triathlete-in-training, swing dancer, reader, and music lover.
+I'm also committed to science communication and advocating for my community. I'm a former writer and current website chair for [Astrobites](https://www.astrobites.org), and I've recently started contributing to articles on [Wikipedia](https://www.wikipedia.org). Outside of science, I'm a triathlete-in-training, swing dancer, reader, and music lover.
 
 I'm originally from Wales, UK, and my first language is *Cymraeg*.
 
