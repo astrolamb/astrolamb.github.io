@@ -35,7 +35,6 @@ feature_row:
 ---
 
 # About Me
-<hr>
 <figure style="width: 300px; height: auto;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/images/bio_photo.jpg" alt="Bio photo of William G. Lamb">
 </figure> 
