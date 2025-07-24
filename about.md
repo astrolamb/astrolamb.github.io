@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: VeryLargeArray.jpg
   caption: "Photo credit: [**NRAO / AUI / NSF**](https://nanograv.org/press/image-gallery)"
-excerpt: "<h2 id=\"header\">I'm a Welsh Astrophysicist</h2>"
+excerpt: "<h2 id=\"header\">I'm a Welsh Astrophysicist 🔭🏴󠁧󠁢󠁷󠁬󠁳󠁿 </h2>"
 feature_row:
   - image_path: MMA_shmahalo.jpg
     alt: "By combining information from the gravitational universe with knowledge learned through traditional astronomy, we can make new discoveries about how the universe works"
