@@ -1,23 +1,12 @@
 ---
-permalink: /
-title: "Hiya, I'm William"
+layout: splash
+title: "Hiya 👋, I'm William"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
-
-I'm an astrophysicist in training. My currently building my website 🚧 - come back soon for updates!
-
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: splash
-title: "Hiya 👋, I'm William"
-author_profile: true
 header:
-  overlay_color: "#000"
+  #overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/VeryLargeArray.jpg
   caption: "Photo credit: [**NRAO / AUI / NSF**](https://nanograv.org/press/image-gallery)"
@@ -33,7 +22,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /assets/images/nanograv_pfc.jpg
     alt: "NANOGrav Physics Frontier Center logo"
-    title: "Research Assistant @ NANOGrav and the IPTA"
+    title: "Pulsar Timing Arrays"
     excerpt: "Learn about the experiments that I'm working on - the *North American Nanohertz Observatory for Gravitational Waves* (NANOGrav) and the *International Pulsar Timing Array* (IPTA)"
     url: ""
     btn_label: "Read More"
@@ -46,3 +35,30 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
+# About Me
+<hr>
+
+<figure style="width: 300px; height: auto;" class="align-left">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/bio_photo.jpg" alt="">
+  <figcaption>Bio photo of William G. Lamb</figcaption>
+</figure> 
+
+*Croeso!* I'm an Astrophysics PhD Candidate at [Vanderbilt University](https://www.vanderbilt.edu/) in Nashville, Tennessee (USA), where I study the nanohertz-frequency gravitational wave background. I'm also a Research Assistant for the [*North American Nanohertz Observatory for Gravitational waves*](https://nanograv.org) (NANOGrav) and the [*International Pulsar Timing Array*](https://ipta4gw.org) (IPTA) Pulsar Timing Arrays, where I run their detection and characterisation pipelines and develop new methods to analyse our data.
+
+My research interests include supermassive black hole binaries, cosmology, spectral characterisation, and Bayesian statistics.
+
+I'm also committed to science communication and advocating for my community. I'm a former writer and current website chair for [Astrobites](https://www.astrobites.org), and I've recently started contributing to pulsar science articles on [Wikipedia](https://www.wikipedia.org). Outside of science, I'm a triathlete-in-training, swing dancer, reader, and music lover.
+
+<!-- To ensure the figure doesn't float to the left of the next part -->
+<div style="clear: both;"></div>
+
+# My Links
+<hr>
+
+{% include social-links.html %}
+
+# Featured Projects
+<hr>
+
+{% include feature_row %}
