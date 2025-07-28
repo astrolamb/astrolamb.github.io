@@ -3,6 +3,8 @@ layout: splash
 permalink: /
 title: "Hiya 👋, William ydw i"
 author_profile: true
+lang: cy
+translated: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
