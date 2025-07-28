@@ -25,8 +25,12 @@ author:
   # Biographic information
   avatar           : "bio_photo.jpg"
   name             : "William G. Lamb"
-  pronouns         : "he/him"  
-  bio              : "Astrophysicist | PhD Candidate | NANOGrav Research Assitant"
+  pronouns:
+    en: "he/him"
+    cy: "o/fo"
+  bio:
+    en: "Astrophysicist | PhD Candidate | NANOGrav Research Assitant"
+    cy: "Astroffisegydd | Myfyriwr PhD | Cynorthwyydd Ymchwil NANOGrav"
   location         : "Nashville, TN"
   employer         : "Vanderbilt University"
   uri              : # URL
@@ -233,9 +237,9 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
+  # _posts-en
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -244,49 +248,130 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+      lang: en
+      permalink: /en/posts/:title
+  # _posts-cy
   - scope:
-      path: ""
+      path: "cy/_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      lang: cy
+      permalink: /cy/postiadau/:title
+
+  # _pages-en
+  - scope:
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+      lang: en
+      permalink: /en/pages/:title
+  # _pages-cy
   - scope:
-      path: ""
+      path: "cy/_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      lang: cy
+      permalink: /cy/tudalennau/:title
+
+  # _teaching-en
+  - scope:
+      path: "_teaching"
       type: teaching
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
+      lang: en
+      permalink: /en/teaching/:title
+  # _teaching-cy
   - scope:
-      path: ""
+      path: "cy/_teaching"
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      lang: cy
+      permalink: /cy/addysgu/:title
+  
+  # _publications-en
+  - scope:
+      path: "_publications"
       type: publications
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+      lang: en
+      permalink: /en/publications/:title
+  # _publications-en
   - scope:
-      path: ""
+      path: "cy/_publications"
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      lang: cy
+      permalink: /cy/cyhoeddiadau/:title
+  
+  # _portfolio-en
+  - scope:
+      path: "_portfolio"
       type: portfolio
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+      lang: en
+      permalink: /en/portfolio/:title
+  # _portfolio-cy
   - scope:
-      path: ""
+      path: "cy/_portfolio"
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+      lang: cy
+      permalink: /cy/portffolio/:title
+
+  # _talks-en
+  - scope:
+      path: "_talks"
       type: talks
     values:
       layout: talk
       author_profile: true
       share: true
-
+      lang: en
+      permalink: /en/talks/:title
+  # _talks-cy
+  - scope:
+      path: "cy/_talks"
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+      lang: en
+      permalink: /cy/cyflwyniadau/:title
 
 # Sass/SCSS
 sass:

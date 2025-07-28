@@ -93,17 +93,30 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
-      {% if site.data.ui-text[site.locale].related_label %}
-        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      {% endif %}
+      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
       <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
+        {% include multilang/get-lang-posts %}
+        {% assign sampled_posts = lang_posts | sample: 4 %}
+        {% for post in sampled_posts %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
     </div>
-  {% endif %}
-</div>
+  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
+  {% elsif page.id and page.related %}
+    <div class="page__related">
+      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
+      <div class="grid__wrapper">
+        {% include multilang/get-lang-posts %}
+        {% for post in lang_posts limit:4 %}
+          {% if post.id == page.id %}
+            {% continue %}
+          {% endif %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+{% endif %}
