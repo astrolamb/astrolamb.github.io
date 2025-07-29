@@ -17,8 +17,8 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% include multilang/get-lang-variables %}
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author_pronouns %}<p class="author__pronouns">{{ author_pronouns }}</p>{% endif %}
+    {% if author_bio %}<p class="author__bio">{{ author_bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
