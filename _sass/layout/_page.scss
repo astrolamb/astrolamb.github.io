@@ -46,6 +46,7 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+  color: #fff;
 }
 
 .page__content {
@@ -148,6 +149,7 @@
 
     .page__lead {
       max-width: $medium;
+      color: #fff;
     }
 
     .page__title {
