@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /en/
 title: "Hiya 👋, I'm William"
 #title: "William G. Lamb | Astrophysicist"
 author_profile: true
