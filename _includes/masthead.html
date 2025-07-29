@@ -19,23 +19,6 @@
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
         </ul>
-        <ul class="visible-links">
-          {% if page.lang == 'en' %}
-            <li class="masthead__menu-item">
-              <a href="{{ target_url_cy }}" title="Tudalen yng Nghymraeg">CY</a>
-            </li>
-          {% endif %}
-          {% if page.lang == 'cy' %}
-            <li class="masthead__menu-item">
-              <a href="{{ target_url_en }}" title="Page in English">EN</a>
-            </li>
-          {% endif %}
-          {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url | prepend: site.baseurl }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-            </li>
-          {%- endfor -%}
-        </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
@@ -47,6 +30,18 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
+        <ul class="visible-links">
+          {% if page.lang == 'en' %}
+            <li class="masthead__menu-item">
+              <a href="{{ target_url_cy }}" title="Tudalen yng Nghymraeg">CY</a>
+            </li>
+          {% endif %}
+          {% if page.lang == 'cy' %}
+            <li class="masthead__menu-item">
+              <a href="{{ target_url_en }}" title="Page in English">EN</a>
+            </li>
+          {% endif %}
+        </ul>
       </nav>
     </div>
   </div>
