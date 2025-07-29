@@ -1,8 +1,8 @@
 ---
 layout: splash
 permalink: /en/
-title: "Hiya 👋, I'm William"
-#title: "William G. Lamb | Astrophysicist"
+title: "Welsh Astrophysicist"
+subtitle: "Hiya 👋, I'm William"
 author_profile: true
 lang: en
 translated: true
