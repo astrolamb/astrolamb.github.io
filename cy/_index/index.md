@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /cy/
 title: "Hiya 👋, William ydw i"
 author_profile: true
 lang: cy
