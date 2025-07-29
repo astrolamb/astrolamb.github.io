@@ -6,6 +6,8 @@ title: "Hiya 👋, I'm William"
 author_profile: true
 lang: en
 translated: true
+redirect_from:
+  - /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
