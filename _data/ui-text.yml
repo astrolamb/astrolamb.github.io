@@ -48,6 +48,47 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+# Cymraeg (default)
+# ----------------
+cy: &DEFAULT_CY
+  page                       : "Tudalen"
+  pagination_previous        : "Blaenorol"
+  pagination_next            : "Nesaf"
+  breadcrumb_home_label      : "Adref"
+  breadcrumb_separator       : "/"
+  toc_label                  : "Ar y Tudalen Yma"
+  ext_link_label             : "Cyswllt Uniongyrchol"
+  less_than                  : "llai na"
+  minute_read                : "darllen hyd munud"
+  share_on_label             : "Rhannu ymlaen"
+  meta_label                 :
+  tags_label                 : "Tagiau:"
+  categories_label           : "Cetegorïau:"
+  date_label                 : "Wedi cyhoeddi:"
+  comments_label             : "Rhoi sylw"
+  comments_title             : "Sylwadau"
+  more_label                 : "Dysgu Mwy"
+  related_label              : "Byddwch chi'n hefyd yn mwynhau..."
+  follow_label               : "Dilynwch:"
+  feed_label                 : "Porthiad"
+  powered_by                 : "Wedi'i Pweru gan"
+  website_label              : "Gwefan"
+  email_label                : "Ebost"
+  recent_posts               : "Postiadau diweddaraf"
+  undefined_wpm              : "Paramedr words_per_minute yn _config.yml heb ei ddiffinio"
+  comment_form_info          : "Ni fydd eich cyfeiriad ebost yn cael ei gyhoeddi. Meysydd angenrheidiol wedi'i farcio"
+  comment_form_comment_label : "Rhoi sylw"
+  comment_form_md_info       : "*Markdown* yn cael ei gefnogi."
+  comment_form_name_label    : "Enw"
+  comment_form_email_label   : "Cyfeiriad ebost"
+  comment_form_website_label : "Gwefan (dewisiol)"
+  comment_btn_submit         : "Rhowch sylw"
+  comment_btn_submitted      : "Wedi rhoi sylw"
+  comment_success_msg        : "Diolch am eich sylw! Dangosir ar y gwefan unwaith mae'n cael ei dderbyn."
+  comment_error_msg          : "Sori, roedd gwall gyda eich sylw. Cwblhewch pob maes angenrheidiol a cheisiwch eto, os gwelwch yn dda."
+  loading_label              : "Yn llwythi..."
+
+
 # Spanish
 # --------------
 es: &DEFAULT_ES

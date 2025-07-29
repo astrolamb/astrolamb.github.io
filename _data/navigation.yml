@@ -7,7 +7,7 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
-main:
+main-en:
   - title: "Publications"
     url: /en/publications/
 
@@ -25,3 +25,13 @@ main:
     
   #- title: "Guide"
   #  url: /markdown/
+
+main-cy:
+  - title: "Cyhoeddiadau"
+    url: /cy/cyhoeddiadau/
+  
+  - title: "Cyflwyniadau"
+    url: /cy/cyflwyniadau/
+  
+  - title: "Blog"
+    url: /cy/blog/
