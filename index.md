@@ -2,6 +2,7 @@
 layout: splash
 permalink: /
 title: "Hiya 👋, I'm William"
+#title: "William G. Lamb | Astrophysicist"
 author_profile: true
 lang: en
 translated: true
