@@ -168,6 +168,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - cy
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
