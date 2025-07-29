@@ -1,7 +1,8 @@
 ---
 layout: splash
 permalink: /cy/
-title: "Hiya 👋, William ydw i"
+title: "Astroffisegydd Cymraeg"
+subtitle: "Hiya 👋, William ydw i"
 author_profile: true
 lang: cy
 translated: true
@@ -10,7 +11,6 @@ header:
   overlay_filter: "0.5"
   overlay_image: VeryLargeArray.jpg
   caption: "Photo credit: [**NRAO / AUI / NSF**](https://nanograv.org/press/image-gallery)"
-excerpt: "<h2 id=\"header\">Astroffisegydd Cymraeg 🔭🏴󠁧󠁢󠁷󠁬󠁳󠁿 </h2>"
 feature_row:
   - image_path: MMA_shmahalo.jpg
     alt: "By combining information from the gravitational universe with knowledge learned through traditional astronomy, we can make new discoveries about how the universe works"
@@ -36,12 +36,15 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-# About Me
+# Amdanaf
 <hr>
 <figure style="width: 300px; height: auto;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/images/bio_photo.jpg"
        alt="Bio photo of William G. Lamb">
 </figure> 
+
+## Astroffisegydd Cymraeg 🔭🏴󠁧󠁢󠁷󠁬󠁳󠁿
+
 *Croeso!* Myfyriwr PhD Astroffiseg ydw i ym [Mhrifysgol Vanderbilt](https://www.vanderbilt.edu/) yn Nashville, Tennessee (USA). Rydw i'n astudio cefndiroedd tonnau disgyrchiol gydag amlderau nanoherts. Cynorthwyydd Ymchwil ydw i i [*NANOGrav*](https://nanograv.org) a'r [*IPTA*](https://ipta4gw.org), a rydw i'n rhedeg ein piblinellau nodweddu ac yn ddatblygu dulliau newydd i ddadansoddi ein ddata.
 
 Tyllau duon gorenfawr, cosmoleg, nodweddu spectrol, ac ystadegau Bayesaidd yw rai o fy diddordebau yn fy ngwaith ymchwil. Datblygais [`ceffyl`](https://www.github.com/astrolamb/ceffyl/) - un o'r peiriannau sy'n rhedeg y feddalwedd [`PTArcade`](https://andrea-mitridate.github.io/PTArcade/) i chwilio am ffiseg newydd yn ddata arae amseriad pwlser.
@@ -53,7 +56,7 @@ Rydw i'n dod o Gymru a Chymraeg yw fy nhiaith cyntaf.
 <!-- To ensure the figure doesn't float to the left of the next part -->
 <div style="clear: both;"></div>
 
-# Featured Projects
+# Prosiectau
 <hr>
 
 {% include feature_row %}

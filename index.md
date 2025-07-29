@@ -13,7 +13,6 @@ header:
   overlay_filter: "0.5"
   overlay_image: VeryLargeArray.jpg
   caption: "Photo credit: [**NRAO / AUI / NSF**](https://nanograv.org/press/image-gallery)"
-excerpt: "<h2 id=\"header\">I'm a Welsh Astrophysicist 🔭🏴󠁧󠁢󠁷󠁬󠁳󠁿 </h2>"
 feature_row:
   - image_path: MMA_shmahalo.jpg
     alt: "By combining information from the gravitational universe with knowledge learned through traditional astronomy, we can make new discoveries about how the universe works"
@@ -45,6 +44,9 @@ feature_row:
   <img src="{{ site.url }}{{ site.baseurl }}/images/bio_photo.jpg"
        alt="Bio photo of William G. Lamb">
 </figure> 
+
+## I'm a Welsh Astrophysicist 🔭🏴󠁧󠁢󠁷󠁬󠁳󠁿
+
 *Croeso!* I'm an Astrophysics PhD Candidate at [Vanderbilt University](https://www.vanderbilt.edu/) in Nashville, Tennessee (USA), where I study the nanohertz-frequency gravitational wave background. I'm also a Research Assistant for the [*North American Nanohertz Observatory for Gravitational waves*](https://nanograv.org) (NANOGrav) and [*International Pulsar Timing Array*](https://ipta4gw.org) (IPTA), where I run our detection and characterisation pipelines and I develop new methods to analyse our data.
 
 My research interests include supermassive black hole binaries, cosmology, spectral characterisation, and Bayesian statistics. I developed [`ceffyl`](https://www.github.com/astrolamb/ceffyl/) - one of the engines behind the powerful [`PTArcade`](https://andrea-mitridate.github.io/PTArcade/) suite for new physics searches in pulsar timing array data.
