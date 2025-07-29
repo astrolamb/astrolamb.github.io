@@ -8,7 +8,7 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% if page.lang == 'en' %}  
-            {% for link in site.data.navigation.main %}
+            {% for link in site.data.navigation.main-en %}
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
@@ -18,7 +18,7 @@
             {% endfor %}
           {% endif %}
           {% if page.lang == 'cy' %}  
-            {% for link in site.data.navigation.main %}
+            {% for link in site.data.navigation.main-cy %}
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
