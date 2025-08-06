@@ -18,7 +18,7 @@ title_separator          : "-"
 name                     : &name "William G. Lamb"
 description              : &description "Astrophysicist"
 url                      : https://astrolamb.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "/en" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "astrolamb/astrolamb.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -146,8 +146,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "bio_photo.jpg" # Social media default site image
+og_description           : "Bio of William G Lamb" # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -158,9 +158,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4" #"false" false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-Z9PW4RC7FC"
 
 
 # Reading Files
@@ -266,7 +266,7 @@ defaults:
       share: true
       related: true
       lang: cy
-      permalink: /cy/postiadau/:title
+      permalink: /cy/posts/:title
 
   # _pages-en
   - scope:
@@ -285,7 +285,7 @@ defaults:
       layout: single
       author_profile: true
       lang: cy
-      permalink: /cy/tudalennau/:title
+      permalink: /cy/pages/:title
 
   # _teaching-en
   - scope:
@@ -308,7 +308,7 @@ defaults:
       share: true
       comments: true
       lang: cy
-      permalink: /cy/addysgu/:title
+      permalink: /cy/teaching/:title
   
   # _publications-en
   - scope:
@@ -331,7 +331,7 @@ defaults:
       share: true
       comments: true
       lang: cy
-      permalink: /cy/cyhoeddiadau/:title
+      permalink: /cy/publications/:title
   
   # _portfolio-en
   - scope:
@@ -354,7 +354,7 @@ defaults:
       share: true
       comment: true
       lang: cy
-      permalink: /cy/portffolio/:title
+      permalink: /cy/portfolio/:title
 
   # _talks-en
   - scope:
@@ -375,7 +375,7 @@ defaults:
       author_profile: true
       share: true
       lang: en
-      permalink: /cy/cyflwyniadau/:title
+      permalink: /cy/talks/:title
 
 # Sass/SCSS
 sass:
