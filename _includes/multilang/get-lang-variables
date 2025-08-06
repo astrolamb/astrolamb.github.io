@@ -23,8 +23,12 @@
   {% assign first_page_path = site.url | append: '/' | append: page.lang -%}
   {% assign prefix = page.lang | prepend: '/' -%}
   {% if page.translated -%}
-    {% assign target_url_cy = page.url | replace: '/en/', '/cy/' | absolute_url -%}
-    {% assign target_url_en = page.url | absolute_url -%}
+    {% if page.title == "Welsh Astrophysicist" -%}
+      {% assign target_url_cy = page.url | replace: '/', '/cy/' | absolute_url -%}
+      {% assign target_url_en = page.url | absolute_url -%}
+    {% else -%}
+      {% assign target_url_cy = page.url | replace: '/en/', '/cy/' | absolute_url -%}
+      {% assign target_url_en = page.url | absolute_url -%}
   {% else -%}
     {% assign target_url_cy = nil -%}
     {% assign target_url_en = page.url -%}
