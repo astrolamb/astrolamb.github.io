@@ -28,10 +28,10 @@ main-en:
 
 main-cy:
   - title: "Cyhoeddiadau"
-    url: /cy/cyhoeddiadau/
+    url: /cy/publications/
   
   - title: "Cyflwyniadau"
-    url: /cy/cyflwyniadau/
+    url: /cy/talks/
   
   - title: "Blog"
     url: /cy/blog/
