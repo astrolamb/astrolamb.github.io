@@ -1,13 +1,13 @@
 ---
 layout: splash
-permalink: /en/
+permalink: /
 title: "Welsh Astrophysicist"
 subtitle: "Hiya 👋, I'm William"
 author_profile: true
 lang: en
 translated: true
 redirect_from:
-  - /
+  - /en
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
