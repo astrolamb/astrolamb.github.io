@@ -2,6 +2,7 @@
 title: "Spectral Variance in a Stochastic Gravitational-wave Background from a Binary Population"
 collection: publications
 category: manuscripts
+tags: first-author
 permalink: /en/publications/2024-08-05-spectral-variance
 excerpt: 'We quantify the moments of the Poisson-based statistics of the astrophysical GWB'
 date: 2024-08-05

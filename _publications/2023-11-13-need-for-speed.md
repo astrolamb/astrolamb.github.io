@@ -1,6 +1,7 @@
 ---
 title: "Rapid refitting techniques for Bayesian spectral characterization of the gravitational wave background using pulsar timing arrays"
 collection: publications
+tags: first-author
 category: manuscripts
 permalink: /en/publications/2023-11-13-need-for-speed
 excerpt: 'This paper is about faster, approximate methods to accurately characterise a gravitational wave background spectrum with `ceffyl`'
