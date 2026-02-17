@@ -1,5 +1,6 @@
 ---
 title: "Spectral Variance in a Stochastic Gravitational-wave Background from a Binary Population"
+pubtype: first-author
 collection: publications
 category: manuscripts
 tags: first-author

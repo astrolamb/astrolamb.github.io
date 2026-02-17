@@ -1,5 +1,6 @@
 ---
 title: "Rapid refitting techniques for Bayesian spectral characterization of the gravitational wave background using pulsar timing arrays"
+pubtype: first-author
 collection: publications
 tags: first-author
 category: manuscripts

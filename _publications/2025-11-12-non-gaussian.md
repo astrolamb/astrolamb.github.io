@@ -1,5 +1,6 @@
 ---
 title: "Finite Populations & Finite Time: The Non-Gaussianity of a Gravitational Wave Background"
+pubtype: first-author
 collection: publications
 tags: first-author
 category: manuscripts
