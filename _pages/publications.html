@@ -13,7 +13,7 @@ translated: true
 
 {% include base_path %}
 
-<h2>First-author papers</h2>
+<h2>First-author papers</h2><hr />
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'first-author' %}
       {% include archive-single.html %}
