@@ -20,21 +20,21 @@ feature_row:
     caption: "Photo credit: [**Olena Shmahalo/NANOGrav**](https://www.olenashmahalo.com/project/nanograv)"
     excerpt: "My research on the nanohertz gravitational wave background"
     url: ""
-    btn_label: "Read More"
+    btn_label: "Content soon"
     btn_class: "btn--primary"
   - image_path: nanograv_pfc.jpg
     alt: "NANOGrav Physics Frontier Center logo"
     title: "Pulsar Timing Arrays"
     excerpt: "Learn about the experiments that I'm working on - the *North American Nanohertz Observatory for Gravitational Waves* (NANOGrav) and the *International Pulsar Timing Array* (IPTA)"
     url: ""
-    btn_label: "Read More"
+    btn_label: "Content soon"
     btn_class: "btn--primary"
   - image_path: bio-photo.jpg
     alt: ""
     title: "Science Communication and Advocacy"
     excerpt: "Read about my work in communicating science to the public and in advocating for science and the scientific community"
     url: ""
-    btn_label: "Read More"
+    btn_label: "Content soon"
     btn_class: "btn--primary"
 ---
 
