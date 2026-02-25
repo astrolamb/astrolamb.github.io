@@ -6,6 +6,7 @@ subtitle: ""
 author_profile: true
 lang: en
 translated: false
+collection: portfolio
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

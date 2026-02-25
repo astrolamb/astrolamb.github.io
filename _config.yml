@@ -231,7 +231,7 @@ collections:
   publications:
     output: true
 #    permalink: /:collection/:path/
-  portfolio:
+  research:
     output: true
 #    permalink: /:collection/:path/
   talks:
@@ -343,7 +343,7 @@ defaults:
       share: true
       comment: true
       lang: en
-      permalink: /en/portfolio/:title
+      permalink: /en/research/:title
   # _portfolio-cy
   - scope:
       path: "cy/_portfolio"
@@ -354,7 +354,7 @@ defaults:
       share: true
       comment: true
       lang: cy
-      permalink: /cy/portfolio/:title
+      permalink: /cy/research/:title
 
   # _talks-en
   - scope:
