@@ -20,5 +20,18 @@ translated: true
   {% endif %}
 {% endfor %}
 
+<h2>Papurau 'Awduron Byr'</h2><hr />
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'short-author' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
+<h2>Cyfraniadau Mawr i Bapurau Cydweithiad</h2><hr />
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'collaboration' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
+<div class="wordwrap">Hefyd, rydw i'n awdur ar 22 papur cydweithiad arall i adlewyrchu fy nghyfraniadau i NANOGrav a'r IPTA.</div>

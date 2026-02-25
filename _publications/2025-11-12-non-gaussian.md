@@ -9,7 +9,7 @@ excerpt: 'We analyse the non-Gaussianity of a finite-population astrophysical gr
 date: 2025-11-12
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2511.09659'
-bibtexurl: 'http://academicpages.github.io/files/need-for-speed.bib'
+bibtexurl: 'http://academicpages.github.io/files/non-gaussian.bib'
 citation: 'Lamb, W. G. et al. (2025)	arXiv:2511.09659'
 lang: en
 translated: false

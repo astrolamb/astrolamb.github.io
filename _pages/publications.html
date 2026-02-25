@@ -20,5 +20,18 @@ translated: true
   {% endif %}
 {% endfor %}
 
+<h2>Short-author papers</h2><hr />
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'short-author' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
+<h2>Major contributions to collaboration papers</h2><hr />
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'collaboration' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
+<div class="wordwrap">I am also an author on 22 additional collaboration papers to reflect my contributions to NANOGrav and the IPTA.</div>
