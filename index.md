@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 title: "Welsh Astrophysicist"
-subtitle: "Hiya 👋, I'm William"
+subtitle: "William G. Lamb, Ph.D."
 author_profile: true
 lang: en
 translated: true
@@ -49,7 +49,7 @@ feature_row:
 
 ### 🚧 My website is currently under construction. Please come back soon for more updates.
 
-*Croeso!* I'm an Astrophysics PhD Candidate at [Vanderbilt University](https://www.vanderbilt.edu/) in Nashville, Tennessee (USA), where I study the nanohertz-frequency gravitational wave background. I'm also a Research Assistant for the [*North American Nanohertz Observatory for Gravitational waves*](https://nanograv.org) (NANOGrav) and [*International Pulsar Timing Array*](https://ipta4gw.org) (IPTA), where I run our detection and characterisation pipelines and I develop new methods to analyse our data.
+*Croeso!* I'm an astrophysicist at [Vanderbilt University](https://www.vanderbilt.edu/) in Nashville, Tennessee (USA), where I study the nanohertz-frequency gravitational wave background. I'm also a Research Assistant for the [*North American Nanohertz Observatory for Gravitational waves*](https://nanograv.org) (NANOGrav) and [*International Pulsar Timing Array*](https://ipta4gw.org) (IPTA), where I run our detection and characterisation pipelines and I develop new methods to analyse our data.
 
 My research interests include supermassive black hole binaries, cosmology, spectral characterisation, and Bayesian statistics. I developed [`ceffyl`](https://www.github.com/astrolamb/ceffyl/) - one of the engines behind the powerful [`PTArcade`](https://andrea-mitridate.github.io/PTArcade/) suite for new physics searches in pulsar timing array data.
 
